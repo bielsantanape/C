@@ -1,3 +1,24 @@
+/*Q1 - Tomada de decisão, função,repetição e ponteiros.
+1. Uma livraria que vende livros técnicos e não técnicos, possui um programa de fidelidade que
+distribui vales-presentes trimestralmente para seus clientes do seguinte modo:
+a. Apenas maiores de idade podem receber vales
+b. menos de 3 livros comprados: não tem direito
+c. 3 livros comprados mas apenas de um tipo: 1 vale de 100,00
+d. 3 livros comprados mas dos dois tipos: 2 vales de 80,00
+e. a partir 4 livros comprados: (nº de livros comprados /2) vales de 60,00
+Faça um programa, utilizando as funções abaixo, que leia para cada cliente do programa
+fidelidade, seu número de inscrição no programa, sua idade, a quantidade de livros técnicos e a
+quantidade de livros não técnicos comprados por ele no último trimestre e lhe mostre a
+quantidade de vales e o valor destes vales caso tenha direito
+A entrada é finalizada quando o valor do número de inscrição digitado for negativo.
+a) faça uma função que receba a idade de uma pessoa e retorne 1 se for maior de idade e 0
+caso contrário
+b) faça uma função para CALCULAR ( apenas calcular NÃO exibir) a quantidade de vales e o
+valor do vale. Esta função recebe a idade, quantidade de livros técnicos, a quantidade de livros
+não técnicos comprados e o endereço de duas variáveis que serão preenchidas com a
+quantidade de vales e respectivo valor. Esta função deve chamar a função anterior*/
+
+
 #include <stdio.h>
 
 int calculaIdade(int idade){
